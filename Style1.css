@@ -1,0 +1,272 @@
+body{
+    background: #ede9e9;
+}
+.header__heaedr {
+    padding-left: 300px;
+    width: 1800px;
+    margin-left: 400px;
+    margin-top: 200px;
+    background: #F8F8F8;
+}
+.header__logo > img {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+.main__main {
+    width: 1800px;
+    height: 4000px;
+    margin-left: 400px;
+    padding-left: 300px;
+    background: #F8F8F8;
+}
+.main__context{
+    display: flex;
+}
+.main__text1{
+    display: inline;
+    height: 270px;
+    width: 950px;
+    color: #181818;
+    justify-content: center;
+    font-size: 90px;
+    line-height: 115%;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+}
+.main__logo__eclipce{
+    display: inline;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+.main__context2{
+    margin-top: 100px;
+    display: flex;
+}
+.main__text2{
+    width:  500px;
+    display: inline;
+    color: #050505;
+    padding-top: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 135%;
+    letter-spacing: 0.66px;
+}
+.main__logo__eclipce2{
+    display: inline;
+    margin-left: 400px;
+}
+.main__context3{
+    display: flex;
+}
+.main__button{
+    display: inline;
+    align-self: self-end;
+}
+.main__logo__vector > img{
+    display: inline;
+    margin-left: 1411px;
+}
+.main__logos{
+    margin-top: 100px;
+    display: flex;
+}
+.main__logo1{
+    margin-left: -300px;
+}
+.Vector{
+    position: absolute;
+}
+.Vector2{
+    position: absolute;
+    transform: rotate(90deg);
+    transform: scaleY(-1);
+}
+
+.main__logo__num{
+    width: 120px;
+    color: #00F;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 135%;
+    letter-spacing: 8px;
+    justify-content: center;
+}
+.main__logo2{
+    margin-left: 300px;   
+}
+.main__logo3{
+    margin-left: 100px;
+}
+.main__logo4{
+    margin-left: 300px;
+}
+.main__logo5{
+    margin-left: 300px;
+}
+.main__logo6 {
+    margin-left: 200px;
+}
+.main__logo6 .main__logo__num > sup{
+    font-size: 26px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-self: start;
+}
+.main__logo__text{
+    color: #181818;;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: 135%;
+    letter-spacing: 0.5px;
+    padding-left: 40px;
+}
+.main__pText {
+    margin-top: 150px;
+    width: 1000px;
+    height: 95px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(54, 2, 2);
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 120%; 
+    letter-spacing: 4px;
+}
+.main__conteiner__logo {
+    max-width: 1000px;
+    margin-top: 50px; 
+    display: grid; 
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+.main__conteiner__logo> div > img{
+    object-fit: cover;
+}
+.main__img1{
+    width: 100%;
+    height: 100%;
+}
+.main__img2{
+    height: 100%;  
+}
+.main__img4{
+    width: 100%; 
+}
+
+.main__lodo3 {
+    grid-row: 1/3;
+    grid-column: 3;
+}
+.main__lodo3 > img{
+    height: 54%;
+    padding-right: 12px;
+}
+.main__lodo4 {
+    grid-column: 1/3;
+}
+.main__lodo5 {
+    grid-row: 2;
+    grid-column: 3;
+    align-self: end;
+}
+.main__lodo5 > img{
+    width: 100%;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.main__lodo7 {
+    grid-column: 2/4; 
+}
+.main__lodo7 > img{
+    width: 100%;
+    height: 92%;
+}
+
+form{
+    margin-top: 200px;
+
+}
+input{
+    width: 600px;
+    height: 22px;
+    justify-content: center;
+    color: #080808;
+    font-size: 18px;
+    line-height: 120%; 
+    padding: 10px;
+    margin: 20px 20px;
+    border-bottom:  1px solid rgba(129, 127, 127, 0.458);
+}
+.form__text{
+    width: 600px;
+    color: #9D9D9D;
+    line-height: 24px;
+}
+.form__text > p{
+    text-decoration: underline;
+    color: #00F;
+}
+button{
+    color: #FFF;
+    width: 270px;
+    height: 70px;
+    background: #00F;
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.75px;
+}
+.footer__footer {
+    width: 2000px;
+    background: #F8F8F8;
+    margin-left: 400px;
+    display: flex;
+    place-content: center center;
+    padding: 30px 50px;
+}
+.footer__logo{
+    display: inline;
+    margin-right: 300px;
+}
+.footer__message{
+    display: inline;
+}
+.footer__lists{
+    display: flex;
+}
+.footer__lists > li {
+    width: 150px;
+    height: 21px;
+    color: #686868;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 1.4px;
+}
+.footer__years{
+    width: 260px;
+    height: 15px;
+    color: #CECECE;
+    font-family: Montserrat;
+    font-size: 16px;
+}
+.footer__li{
+    margin-right: 300px;
+}
+.footer__tel{
+    color: #333;
+    font-family: Montserrat;
+    font-size: 18px;
+}
+.main__conteiner__logo:hover img{
+    transform: rotate(-2deg);
+    scale: 0.9;
+    transition: 0.8s;
+}
+
